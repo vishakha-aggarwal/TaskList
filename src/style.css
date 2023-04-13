@@ -1,0 +1,62 @@
+.header{
+    border: 2px solid black;
+    padding: 10px;
+    font-family: cursive;
+    background-color: rgb(204, 162, 243);
+}
+.footer{
+    padding: 10px;
+    background-color: rgb(204, 162, 243);
+    margin-top: 70vh;
+    position: fixed;
+    z-index: -1;
+}
+.todos{
+    border: 1px solid gray;
+    background-color: rgb(188, 224, 255);
+    width: 60vw;
+    margin-left: 20vw;
+}
+.todo{
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}
+
+.heading{
+    width: 90%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.del{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: rgb(250, 132, 132);
+    margin: 10px;
+}
+
+.inputItem{
+    width: 80%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.addItem{
+    width: 15%;
+    height: 50px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
